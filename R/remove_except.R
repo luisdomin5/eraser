@@ -16,8 +16,8 @@
 #' x <- 1
 #' y <- 2
 #' remove_except("iris_data")
-#' #' remove_except(c("iris_data", "x")
-#' #' remove_except(list("iris_data", "x")
+#' remove_except(c("iris_data", "x")
+#' remove_except(list("iris_data", "x")
 #' }
 #'
 #'
