@@ -24,8 +24,14 @@
 
 
 remove_except <- function(files) {
+
   in_memory <- ls(name = .GlobalEnv)
   files_to_remove <- in_memory[!in_memory %in% files]
+
+  if (length(in_memory) == length(files_to_remove)) {
+    stop("Attempt to erase full history stopped. Please ensure the exception files are correctly spelled and quoted.")
+  }
+
   rm(list=files_to_remove, envir = .GlobalEnv)
 }
 
