@@ -4,7 +4,8 @@ Title: R package to clean up R environment
 Version: 0.1.0
 Author: Suzan Baert
 Maintainer: Suzan Baert <suzan.baert@hederainsights.com>
-Description: Set of functions to clean up environment with exception of certain files
+Description: Set of functions to clean up environment with exception of certain files.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.0
