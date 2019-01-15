@@ -23,7 +23,7 @@
 #'
 
 
-remove_except <- function(files) {
+rm_except <- function(files) {
 
   in_memory <- ls(name = .GlobalEnv)
   files_to_remove <- in_memory[!in_memory %in% files]
