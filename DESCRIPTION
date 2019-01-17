@@ -1,4 +1,4 @@
-Package: removethat
+Package: eraser
 Type: Package
 Title: R package to clean up R environment
 Version: 0.1.0
